@@ -1,2 +1,12 @@
 # Expanding-Toolbox
 A new language I discover and learn
+
+The tools in this program demonstrates the new CSS transition, transform, and animation functions.
+The features provided by this tool are be extremely useful for developers who wish to create a flashy and responsive site visually without doing too much manual work on writing the back-end code for it. With the 2D and 3D animations, developers are now able to utilize the functions to quickly add animation to their content. It solves the problems of being restricted to a simple read and act website.
+A developer might be cautious of this technology for a few reasons. !, it is new, and not too widely utilized. Tagging onto that, since it is new, it is also not too developed. Witha limited amount of functions at hand, it could ultimately limit a developer's control of his or her code if this is the only animation technique they know. Similarily, this should be seen as one of the major drawbacks. The project seems to be gaining popularity, and active as it stands. However, the act of constantly manipulating your content and adding animation to them haven't caught on yet. Over-doing these functions would make the site too distracting, so I am not sure if it ever will be a thing that is widely used. 
+For my example site, I created a simple photography website for your average photographer. For any photographer, his or her website is a vital component to their business and credibility, as the first thing they see must show their creativity and talent. In this case, the photography website uses the array of CSS animations to stand out, by having functions such as a sliding title, scaling packages, and a phone-number that flips to reveal the numbers. These functions succesfully demonstrates some of the many abilities CSS animation and tranformation can do.
+To see my website in full function, all you have to do is navigate through every section of the site, paying attention to animations that occur and hovering over items that a user might find interesting or important to read.
+Resources for learning this is widely found on Google. Some good places to learn the syntaxes are:
+http://www.w3schools.com/css/css3_animations.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+https://css-tricks.com/almanac/properties/a/animation/

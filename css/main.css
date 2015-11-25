@@ -1,0 +1,158 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+header {
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 760px;
+	color: #FFF;
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
+	text-align: left;
+	padding-top: 20em;
+	padding-left: 5em;
+}
+
+header h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#welcome {
+	background-color: #FFF;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	margin-bottom: 10em;
+}
+
+#banner {
+	background-image: url("../img/banner.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 760px;
+	color: #FFF;
+	padding-top: 5em;
+}
+
+#about {
+	padding-top: 5em;
+	padding-bottom: 5em;
+	background-color: #FFF;
+	margin-bottom: 15em;
+}
+
+#session {
+	background-image: url("../img/booking.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 760px;
+	color: #FFF;
+}
+
+#welcome p {
+	margin-right: 15em;
+	margin-left: 15em;
+}
+
+#about p {
+	margin-right: 15em;
+	margin-left: 15em;
+}
+
+h3 {
+	font-weight: bold;
+	margin-top: 0;
+}
+
+#packaging {
+	background-color: #FFF;
+	padding-bottom: 40em;
+}
+
+#packaging img {
+	min-height: 300px;
+	max-width: 400px;
+	max-height: 600px;
+	margin-bottom: 3em;
+	margin-bottom: 28em;
+}
+
+body {
+	text-align: center;
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
+}
+
+p {
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-bottom: 2em;
+}
+
+#contact {
+	background-image: url("../img/contact.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 760px;
+	color: #FFF;
+}
+
+header h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+header p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.col-md-4 {
+    -webkit-transition: -webkit-transform 2s;
+    transition: transform 2s;
+}
+
+.col-md-4:hover {
+  	transform:scale(1.05, 1.05);
+} 
+
+#contact h2 {
+  transition:all 2s ease-in-out;
+  perspective: 800px;
+  perspective-origin: 50% 100px;
+  transform: rotateY(180deg);
+}
+
+#contact h2:hover {
+  transform: rotateY(360deg);
+}
